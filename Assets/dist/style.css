@@ -1,0 +1,21 @@
+body {
+    scroll-behavior: smooth;
+}
+
+nav ul li.active a {
+    color: #007bff !important;
+}
+
+.icon {
+    position: relative;
+    margin: 0 10px 30px;
+}
+
+.icon i {
+    position: absolute;
+    right: 0px;
+    /* top: 30%; */
+    transform: translateY(-100%);
+    font-size: 60px;
+    opacity: 0.4;
+}
